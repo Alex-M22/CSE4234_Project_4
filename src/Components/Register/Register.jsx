@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import './App.css'
+import './Register.css'
 
-function App() {
+function Register() {
   const [count, setCount] = useState(0)
 
   return (
   )
 }
 
-export default App
+export default Register

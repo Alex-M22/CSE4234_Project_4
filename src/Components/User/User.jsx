@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import './App.css'
+import './User.css'
 
-function App() {
+function User() {
   const [count, setCount] = useState(0)
 
   return (
   )
 }
 
-export default App
+export default User

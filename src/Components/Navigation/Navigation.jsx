@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import './App.css'
+import './Navigation.css'
 
-function App() {
+function Navigation() {
   const [count, setCount] = useState(0)
 
   return (
   )
 }
 
-export default App
+export default Navigation
