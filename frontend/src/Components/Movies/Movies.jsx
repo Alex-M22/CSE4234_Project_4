@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import './User.css'
+import './Movies.css'
 
-function User() {
+function Movies() {
 
   return (
     <>
@@ -9,4 +9,4 @@ function User() {
   )
 }
 
-export default User
+export default Movies

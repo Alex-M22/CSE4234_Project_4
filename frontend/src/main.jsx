@@ -1,8 +1,9 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
+import App from './components/App/App.jsx'
+import data from "./assets/data/movies.json"
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.querySelector('main')).render(
   
     <App />,
 )
