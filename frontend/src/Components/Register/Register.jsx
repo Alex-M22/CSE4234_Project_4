@@ -11,7 +11,7 @@ function Register() {
         const data = new URLSearchParams(formData)
 
         // not sure where to fetch to
-        fetch('http://localhost:8080', {
+        fetch('http://localhost:3000/api/register', {
             method: 'POST',
             body: data
         }).then(res => res.json())
