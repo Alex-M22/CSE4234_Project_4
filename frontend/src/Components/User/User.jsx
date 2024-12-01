@@ -1,12 +1,8 @@
-import { useState } from 'react'
-import './User.css'
+import { useState, createContext, useContext } from 'react';
+import './User.css';
 
-function User() {
 
-  return (
-    <>
-    </>
-  )
-}
+const User = createContext();
 
 export default User
+

@@ -1,0 +1,11 @@
+body {
+    background: #141414;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: white;
+/*    display: flex;
+    width: 100%;
+*/}
+
+main {
+    width: 100%;
+}

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-
+// Creates the Movie schema to store movie objects
 const MovieSchema = new mongoose.Schema({
     year: Number,
     title: String,
@@ -19,16 +19,4 @@ const MovieSchema = new mongoose.Schema({
 
 
 
-MovieSchema.pre('save', function (callback){
-    if (this.password && this.isModified('password')) {
-        console.log(this.password);
-        // this.password = hashPassword(this.password);
-    }
-    callback();
-});
-
-
-
 module.exports = mongoose.model('Movie', MovieSchema);
-
-

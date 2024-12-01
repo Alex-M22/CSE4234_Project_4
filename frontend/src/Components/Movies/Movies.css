@@ -1,0 +1,41 @@
+.movieTile {
+    border: 2px solid #444;
+    background: #030303;
+    min-width: 22%;
+    margin-right: 3%;
+    max-width: 22%;
+    min-height: 100%;
+    padding-bottom: 0.5em;
+}
+
+.movieTile img{
+    width: 100%;
+}
+
+.movieTile button {
+    border: none;
+    border-radius: 0.4em;
+    padding: 0.7em;
+    background: #eee;
+    color: #444; 
+    margin-left: 0.7em;
+}
+
+.movieTile h5 {
+    font-size: 16px;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+}
+
+.movieTile p {
+    margin-left: 0.7em; 
+}
+
+
+@media (max-width: 768px) {
+    .movieTile {
+        min-width:50%; 
+        max-width:50%;
+    }
+
+}
